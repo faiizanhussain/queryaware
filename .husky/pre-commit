@@ -1,0 +1,6 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+# queryaware:start
+npx @catisho/queryaware scan ./src
+# queryaware:end

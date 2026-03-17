@@ -1,0 +1,35 @@
+{
+  "name": "@catisho/queryaware",
+  "version": "0.1.1",
+  "description": "queryaware catches the database mistakes AI-assisted coding silently introduces before they reach production",
+  "type": "module",
+  "main": "dist/src/cli.js",
+  "bin": {
+    "queryaware": "dist/bin/queryaware.js"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "clean": "rimraf dist",
+    "prepare": "npm run build",
+    "scan": "node dist/bin/queryaware.js scan ./src"
+  },
+  "keywords": [
+    "cli",
+    "static-analysis",
+    "prisma",
+    "orm",
+    "query"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "commander": "^14.0.1",
+    "glob": "^11.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.13",
+    "rimraf": "^6.0.1",
+    "typescript": "^5.8.2"
+  }
+}

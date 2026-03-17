@@ -1,0 +1,69 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+lerna-debug.log*
+.rpt2_cache/
+.rts2_cache/
+.eslintcache
+.stylelintcache
+.node_repl_history
+
+# Diagnostic reports (https://nodejs.org)
+.report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional stylelint cache
+.stylelintcache
+
+# Optional composer vendor directory
+vendor/
+
+# Optional development tools
+.next/
+.nuxt/
+.parcel-cache/
+.storybook/
+.vitepress/
+.shadow-cljs/
+
+# Distribution/build directories
+dist/
+build/
+.next/
+.nuxt/
+.parcel-cache/
+.storybook/
+.vitepress/
+.shadow-cljs/
+
+# Temporary files and directories
+tmp/
+temp/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.staging.local
+
+# TypeScript cache files
+*.tsbuildinfo
+
+# output of bun build
+*.bundle.js*
+
+# output of esbuild
+*.esbuild.js*
