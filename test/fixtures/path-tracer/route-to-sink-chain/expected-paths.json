@@ -1,0 +1,34 @@
+{
+  "paths": [
+    {
+      "routeFile": "route.ts",
+      "routeMethod": "get",
+      "routePath": "/files",
+      "hops": [
+        {
+          "file": "route.ts",
+          "fn": "routeHandler",
+          "line": 7
+        },
+        {
+          "file": "service.ts",
+          "fn": "getFiles",
+          "line": 3
+        },
+        {
+          "file": "repo.ts",
+          "fn": "fetchFiles",
+          "line": 1,
+          "unresolved": true,
+          "reasonContains": "prisma.file.findMany"
+        }
+      ],
+      "sink": {
+        "file": "repo.ts",
+        "model": "file",
+        "operation": "findMany"
+      },
+      "hasUnresolvedHops": true
+    }
+  ]
+}

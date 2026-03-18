@@ -1,0 +1,3 @@
+[
+  "GET /dynamic | route.ts#routeHandler:5 unresolved(dynamic) | no-sink"
+]

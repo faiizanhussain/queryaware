@@ -1,0 +1,4 @@
+[
+  "a.ts#a -> b.ts#b",
+  "b.ts#b -> a.ts#a"
+]

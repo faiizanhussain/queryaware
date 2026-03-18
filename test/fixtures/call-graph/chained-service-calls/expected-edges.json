@@ -1,0 +1,24 @@
+{
+  "edges": [
+    {
+      "from": {
+        "file": "route.ts",
+        "symbol": "routeHandler"
+      },
+      "to": {
+        "file": "service-a.ts",
+        "symbol": "getFiles"
+      }
+    },
+    {
+      "from": {
+        "file": "service-a.ts",
+        "symbol": "getFiles"
+      },
+      "to": {
+        "file": "service-b.ts",
+        "symbol": "fetchFiles"
+      }
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "edges": [
+    {
+      "from": {
+        "file": "caller.ts",
+        "symbol": "routeHandler"
+      },
+      "to": {
+        "file": "callee.ts",
+        "symbol": "target"
+      }
+    }
+  ]
+}

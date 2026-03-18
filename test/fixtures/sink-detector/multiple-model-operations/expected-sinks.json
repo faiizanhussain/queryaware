@@ -1,0 +1,14 @@
+{
+  "sinks": [
+    {
+      "file": "query.ts",
+      "model": "project",
+      "operation": "update"
+    },
+    {
+      "file": "query.ts",
+      "model": "user",
+      "operation": "findUnique"
+    }
+  ]
+}

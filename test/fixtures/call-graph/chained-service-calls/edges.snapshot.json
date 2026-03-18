@@ -1,0 +1,4 @@
+[
+  "route.ts#routeHandler -> service-a.ts#getFiles",
+  "service-a.ts#getFiles -> service-b.ts#fetchFiles"
+]

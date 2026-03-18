@@ -1,0 +1,23 @@
+{
+  "paths": [
+    {
+      "routeFile": "route.ts",
+      "routeMethod": "get",
+      "routePath": "/health",
+      "hops": [
+        {
+          "file": "route.ts",
+          "fn": "routeHandler",
+          "line": 6
+        },
+        {
+          "file": "service.ts",
+          "fn": "healthCheck",
+          "line": 1
+        }
+      ],
+      "sink": null,
+      "hasUnresolvedHops": false
+    }
+  ]
+}
