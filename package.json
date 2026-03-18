@@ -1,5 +1,5 @@
 {
-  "name": "queryaware",
+  "name": "@catisho/queryaware",
   "version": "0.2.0",
   "description": "queryaware catches the database mistakes AI-assisted coding silently introduces before they reach production",
   "type": "module",
