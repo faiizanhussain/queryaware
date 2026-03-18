@@ -1,0 +1,3 @@
+[
+  "GET /cycle | route.ts#routeHandler:6 -> service.ts#a:1 -> service.ts#b:5 | no-sink"
+]

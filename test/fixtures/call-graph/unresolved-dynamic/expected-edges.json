@@ -1,0 +1,13 @@
+{
+  "edges": [
+    {
+      "from": {
+        "file": "route.ts",
+        "symbol": "routeHandler"
+      },
+      "to": null,
+      "unresolved": true,
+      "reasonContains": "dynamic"
+    }
+  ]
+}

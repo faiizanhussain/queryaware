@@ -51,6 +51,7 @@ npm run build
 
 ```bash
 npx @catisho/queryaware scan ./src
+npx @catisho/queryaware scan ./src --verbose
 npx @catisho/queryaware scan ./src --fix
 ```
 
@@ -61,6 +62,11 @@ queryaware scan ./src
 ```
 
 `--fix` is currently scaffolded and not implemented yet.
+
+Path analysis output behavior:
+
+- default: compact list of files that contain Prisma/DB access
+- `--verbose`: full route-to-call-chain output (hops, unresolved markers, sink lines)
 
 Exit codes:
 

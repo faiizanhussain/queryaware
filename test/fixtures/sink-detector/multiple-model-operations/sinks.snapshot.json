@@ -1,0 +1,4 @@
+[
+  "query.ts prisma.project.update",
+  "query.ts prisma.user.findUnique"
+]

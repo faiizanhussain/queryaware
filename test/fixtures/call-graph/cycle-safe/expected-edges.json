@@ -1,0 +1,24 @@
+{
+  "edges": [
+    {
+      "from": {
+        "file": "a.ts",
+        "symbol": "a"
+      },
+      "to": {
+        "file": "b.ts",
+        "symbol": "b"
+      }
+    },
+    {
+      "from": {
+        "file": "b.ts",
+        "symbol": "b"
+      },
+      "to": {
+        "file": "a.ts",
+        "symbol": "a"
+      }
+    }
+  ]
+}

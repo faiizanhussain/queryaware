@@ -1,0 +1,28 @@
+{
+  "paths": [
+    {
+      "routeFile": "route.ts",
+      "routeMethod": "get",
+      "routePath": "/cycle",
+      "hops": [
+        {
+          "file": "route.ts",
+          "fn": "routeHandler",
+          "line": 6
+        },
+        {
+          "file": "service.ts",
+          "fn": "a",
+          "line": 1
+        },
+        {
+          "file": "service.ts",
+          "fn": "b",
+          "line": 5
+        }
+      ],
+      "sink": null,
+      "hasUnresolvedHops": false
+    }
+  ]
+}

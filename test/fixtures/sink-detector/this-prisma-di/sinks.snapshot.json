@@ -1,0 +1,1 @@
+["query.ts prisma.sql.$queryRaw", "query.ts prisma.user.create", "query.ts prisma.user.findUnique"]

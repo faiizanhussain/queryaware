@@ -1,0 +1,9 @@
+{
+  "sinks": [
+    {
+      "file": "query.ts",
+      "model": "file",
+      "operation": "findMany"
+    }
+  ]
+}

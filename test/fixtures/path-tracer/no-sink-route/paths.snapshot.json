@@ -1,0 +1,3 @@
+[
+  "GET /health | route.ts#routeHandler:6 -> service.ts#healthCheck:1 | no-sink"
+]

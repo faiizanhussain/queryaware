@@ -1,0 +1,6 @@
+{
+  "sinks": [
+    { "file": "query.ts", "model": "sql", "operation": "$executeRaw" },
+    { "file": "query.ts", "model": "sql", "operation": "$queryRaw"   }
+  ]
+}

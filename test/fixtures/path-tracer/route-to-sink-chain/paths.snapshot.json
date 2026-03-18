@@ -1,0 +1,3 @@
+[
+  "GET /files | route.ts#routeHandler:7 -> service.ts#getFiles:3 -> repo.ts#fetchFiles:1 unresolved(unresolved member call: prisma.file.findMany) | prisma.file.findMany@repo.ts"
+]

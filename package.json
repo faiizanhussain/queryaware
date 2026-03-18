@@ -1,6 +1,6 @@
 {
   "name": "@catisho/queryaware",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "queryaware catches the database mistakes AI-assisted coding silently introduces before they reach production",
   "type": "module",
   "main": "dist/src/cli.js",
@@ -11,7 +11,9 @@
     "build": "tsc -p tsconfig.json",
     "clean": "rimraf dist",
     "prepare": "npm run build",
-    "scan": "node dist/bin/queryaware.js scan ./src"
+    "scan": "node dist/bin/queryaware.js scan ./src",
+    "test:graph": "vitest run test/graph",
+    "test:graph:watch": "vitest test/graph"
   },
   "keywords": [
     "cli",
@@ -25,11 +27,20 @@
   "dependencies": {
     "chalk": "^5.4.1",
     "commander": "^14.0.1",
-    "glob": "^11.0.3"
+    "glob": "^11.0.3",
+    "ts-morph": "^24.0.0"
   },
   "devDependencies": {
     "@types/node": "^22.13.13",
     "rimraf": "^6.0.1",
-    "typescript": "^5.8.2"
-  }
+    "typescript": "^5.8.2",
+    "vitest": "^3.2.4"
+  },
+  ".npmignore": [
+    "src",
+    "test",
+    "tsconfig.json",
+    "vitest.config.ts",
+    ".github"
+  ]
 }

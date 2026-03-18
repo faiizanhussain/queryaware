@@ -1,0 +1,1 @@
+["query.ts prisma.sql.$executeRaw", "query.ts prisma.sql.$queryRaw"]

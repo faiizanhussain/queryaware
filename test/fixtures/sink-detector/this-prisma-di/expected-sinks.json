@@ -1,0 +1,7 @@
+{
+  "sinks": [
+    { "file": "query.ts", "model": "sql",  "operation": "$queryRaw"    },
+    { "file": "query.ts", "model": "user", "operation": "create"       },
+    { "file": "query.ts", "model": "user", "operation": "findUnique"   }
+  ]
+}

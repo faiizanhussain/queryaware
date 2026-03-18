@@ -1,0 +1,20 @@
+{
+  "paths": [
+    {
+      "routeFile": "route.ts",
+      "routeMethod": "get",
+      "routePath": "/dynamic",
+      "hops": [
+        {
+          "file": "route.ts",
+          "fn": "routeHandler",
+          "line": 5,
+          "unresolved": true,
+          "reasonContains": "dynamic"
+        }
+      ],
+      "sink": null,
+      "hasUnresolvedHops": true
+    }
+  ]
+}
